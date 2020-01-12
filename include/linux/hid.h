@@ -350,6 +350,7 @@ struct hid_item {
 /* BIT(8) reserved for backward compatibility, was HID_QUIRK_NO_EMPTY_INPUT */
 /* BIT(9) reserved for backward compatibility, was NO_INIT_INPUT_REPORTS */
 #define HID_QUIRK_ALWAYS_POLL			BIT(10)
+#define HID_QUIRK_INIT_USB_INPUT_REPORTS	0x00000800
 #define HID_QUIRK_INPUT_PER_APP			BIT(11)
 #define HID_QUIRK_SKIP_OUTPUT_REPORTS		BIT(16)
 #define HID_QUIRK_SKIP_OUTPUT_REPORT_ID		BIT(17)
