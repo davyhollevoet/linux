@@ -144,7 +144,7 @@ static int nvidia_raw_event(struct hid_device *hdev,
 
 	/* If driver is disabled, don't report anything to generic driver */
 	if (loc->mode == DISABLED_MODE)
-		return 1;
+		return -EINVAL;
 
 	if (!data)
 		return -EINVAL;
