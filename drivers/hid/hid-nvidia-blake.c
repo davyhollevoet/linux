@@ -484,7 +484,7 @@ static int nvidia_probe(struct hid_device *hdev, const struct hid_device_id *id)
 	loc->y = TOUCHPAD_DEFAULT_Y;
 	loc->action = 0;
 	loc->speed = DEFAULT_SPEED;
-	loc->mode = DISABLED_MODE;
+	loc->mode = MOUSE_MODE;
 	hid_set_drvdata(hdev, loc);
 
 	/* Parse the HID report now */
