@@ -1,3 +1,6 @@
+NVIDIA Blake driver patch taken from https://github.com/devmapal/nvidia-shield-controller-driver/issues/5#issuecomment-398921931
+Minor tweaks for touch pad mode (only mouse actually works in evtest)
+
 Linux kernel
 ============
 
